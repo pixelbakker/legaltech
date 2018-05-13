@@ -66,7 +66,7 @@ numberOfClosingDaysWhenUncertainConditions:14
 ifSellerRequireNameChange: true
 designationToRemove: "NameToRemove"
 
-##Footnote 18
+##Footnote 18, dette er en endring.
 ifUseExtendedClauseDueToCompetitionAct:true
 
 # Structured Headers
