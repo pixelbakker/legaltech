@@ -1,12 +1,14 @@
 ---
 
 # This is contract data in the yaml format.
+# This is a change I really can do!
 author: "Leif Arne Bakker"
 businessRegistrationNoPurchaser: "233121322"
 businessRegistrationNoSeller: "43543345345"
 businessRegistrationNoTargetCompany: "387634222"
 
 # The percentage depends on, inter alia, the amount of the loss carry forward.
+# This is serious.
 compForDiffPropValAndTaxDeprInNOK: "200.230"
 
 date: "02.03.18"
