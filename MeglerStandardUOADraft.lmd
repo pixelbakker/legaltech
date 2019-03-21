@@ -8,6 +8,7 @@ businessRegistrationNoSeller: "43543345345"
 businessRegistrationNoTargetCompany: "387634222"
 
 # The percentage depends on, inter alia, the amount of the loss carry forward.
+# This is serious.
 compForDiffPropValAndTaxDeprInNOK: "200.230"
 
 date: "02.03.18"
