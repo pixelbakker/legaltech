@@ -1,6 +1,7 @@
 ---
 output: word_document
 ---
+![Logo](assets/images/logo.png)
 
 STANDARD ESTATE AGENCY TERMS, OCTOBER 2015, FOR THE SALE AND PURCHASE OF A PRIVATE LIMITED LIABILITY COMPANY, WITHOUT CLOSING AGENT. Draft A **02.03.18** from **Eiendomsmagnaten AS** by **Leif Arne Bakker**. **Eiendomsmagnaten AS** has examined neither issues relating to direct or indirect taxes, nor accounting issues. It is recommended that these be evaluated by the advisors of the parties or by their auditors. The agreement is concluded when signed by the seller and the purchaser.
 
