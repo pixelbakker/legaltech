@@ -1,6 +1,6 @@
 ---
 
-# Mixins
+# This is contract data in the yaml format.
 author: "Leif Arne Bakker"
 businessRegistrationNoPurchaser: "233121322"
 businessRegistrationNoSeller: "43543345345"
@@ -90,12 +90,12 @@ STANDARD ESTATE AGENCY TERMS, OCTOBER 2015, FOR THE SALE AND PURCHASE OF A PRIVA
 
 
 
-# SALE AND PURCHASE AGREEMENT 
-# between 
-# {{theSeller}} 
-# and 
-# {{thePurchaser}} 
-# relating to the sale and purchase of the shares of 
+# SALE AND PURCHASE AGREEMENT
+# between
+# {{theSeller}}
+# and
+# {{thePurchaser}}
+# relating to the sale and purchase of the shares of
 # {{theCompany}}.
 
 
@@ -104,7 +104,7 @@ STANDARD ESTATE AGENCY TERMS, OCTOBER 2015, FOR THE SALE AND PURCHASE OF A PRIVA
 
 
 ```
-l. THE PARTIES AND THE PROPERTY 
+l. THE PARTIES AND THE PROPERTY
 
 {{theSeller}}, business registration no. {{businessRegistrationNoSeller}}, (the Seller) is the owner of 100% of the shares (the Shares) of the {{theCompany}}, business registration no. {{businessRegistrationNoTargetCompany}}, (the Company).
 
@@ -124,9 +124,9 @@ The Purchase Price for the Shares (the Purchase Price) shall be:
 lll.	NOK {{purchasePriceInNOK}}, which represents an agreed, fixed value for the Property (the Property Value);
 plus:
 
-lll.	the cash and receivables on the balance sheet of the {{companyOrGroup}}; 
+lll.	the cash and receivables on the balance sheet of the {{companyOrGroup}};
 
-lll.	{{lossCarryForwardInPercent}}%  of any loss carry forward (until and including the date of Closing); 
+lll.	{{lossCarryForwardInPercent}}%  of any loss carry forward (until and including the date of Closing);
 
 [{{ifFixedConsiderationForDeferredTaxBenefit}} lll. NOK {{fixedConsiderationForDeferredTaxBenefitInNOK}}, which represents an agreed, fixed consideration in respect of deferred tax benefit comprising loss in the gain/loss account.]
 minus:
@@ -135,9 +135,9 @@ lll.	all liabilities on the balance sheet of the {{companyOrGroup}}(including th
 
 [{{ifFixedDeductionForDeferredTax}} lll. NOK {{fixedDeductionForDeferredTaxInNOK}}, which represents an agreed, fixed deduction in respect of deferred tax comprising gain in the gain/loss account; and]
 
-lll.	NOK {{compForDiffPropValAndTaxDeprInNOK}}, which represents an agreed, fixed amount to compensate for the difference between the Property Value (less the agreed value of the land) and the basis for tax depreciation of the Property. 
+lll.	NOK {{compForDiffPropValAndTaxDeprInNOK}}, which represents an agreed, fixed amount to compensate for the difference between the Property Value (less the agreed value of the land) and the basis for tax depreciation of the Property.
 
-ll. |2.2|The Estimated Balance Sheet and the Estimated Purchase Price[{{ifCompanyBankLoansNotRepaid}}, as well as repayment of the Loans] 
+ll. |2.2|The Estimated Balance Sheet and the Estimated Purchase Price[{{ifCompanyBankLoansNotRepaid}}, as well as repayment of the Loans]
 
 The Purchase Price payable by the Purchaser upon Closing (the Estimated Purchase Price), shall be determined on the basis of a balance sheet for the Company as it is expected to be as per Closing (the Estimated Balance Sheet). The Estimated Balance Sheet shall be prepared in accordance with generally accepted accounting principles, consistently applied, and otherwise as follows:
 
@@ -194,7 +194,7 @@ If the Estimated Purchase Price or any other amount outstanding under this agree
 l.	CLOSING, RISK TRANSFER AND SETTLEMENT
 
 [{{ifStandardClosingConditions}}]
-The Purchaser shall take delivery of the Shares at 12:00 noon on {{closingDate}} (Closing).  
+The Purchaser shall take delivery of the Shares at 12:00 noon on {{closingDate}} (Closing).
 
 [{{ifUncertainClosingConditions}}Closing shall take place {{numberOfClosingDaysWhenUncertainConditions}} banking days after all conditions in Clauses 4.1 and 4.2 have been satisfied or waived.]
 
@@ -202,7 +202,7 @@ The Purchaser shall, from that point in time, assume the risk that any circumsta
 
 Closing shall take place in accordance with the closing agreement in Appendix 8, and the Seller, the Purchaser and the Company hereby undertake to perform their respective duties under the closing agreement. [{{ifSellerRequireNameChange}} The Purchaser shall change the name of the Company no later than 1 month after Closing such as to remove the designation "{{designationToRemove}}". Neither the Purchaser, nor the Company, shall be permitted to use the designation "designationToRemove" in marketing or otherwise after Closing."] The Seller shall ensure that the Company performs its duties under the closing agreement.
 
-l.	CONDITIONS PRECEDENT TO CLOSING 
+l.	CONDITIONS PRECEDENT TO CLOSING
 
 ll.	Conditions on the part of the Purchaser
 
@@ -213,4 +213,3 @@ ll.	Conditions on the part of the Purchaser
 
 
 ```
-
